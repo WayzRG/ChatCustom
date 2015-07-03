@@ -1,6 +1,8 @@
 # Chat Custom v2.0
 Script pour customiser le chat du forum RealityGaming
 
+Cette version sur GitHub corrige le bug de chargement infini, et l'instabilité du script. Il faut savoir que depuis le passage en HTTPS de RealityGaming, le script ne pouvait pas se charger car il marchait avec HTTP et non pas HTTPS. Voici la raison pour laquelle le script était indisponible !
+
 ## Fonctionnalités
 
 * Notification lorsque vous êtes tagué sur la shoutbox
