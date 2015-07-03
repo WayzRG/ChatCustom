@@ -16,5 +16,5 @@
 // Script by Wayz. Tous droit résérvés !
 
 $(document).ready(function(){
-	$.getScript('https://cdn.rawgit.com/gregory-yet/ChatCustom/master/main.js');
+	$.getScript('https://cdn.rawgit.com/gregory-yet/ChatCustom/dada7145953087c158a981ab662c6e16f11b0806/main.js');
 });
