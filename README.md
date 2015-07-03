@@ -16,3 +16,6 @@ Vous devez disposer de l'extension
 * [Greasemonkey](http://goo.gl/xQet9q) pour Firefox
 * [Opera](https://addons.opera.com/en/extensions/details/violent-monkey/?display=en)
 * [Maxthon](http://extension.maxthon.com/detail/index.php?view_id=1680)
+
+## Screenshot
+![script](http://i.imgur.com/k62EYm4.png)
