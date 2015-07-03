@@ -19,7 +19,7 @@ Vous devez disposer de l'extension
 * [Opera](https://addons.opera.com/en/extensions/details/violent-monkey/?display=en)
 * [Maxthon](http://extension.maxthon.com/detail/index.php?view_id=1680)
 
-Puis de cliquer sur ce [lien](https://cdn.rawgit.com/gregory-yet/ChatCustom/master/main.user.js), cela devrait vous proposer une installation si l'extension Monkey fonctionne correctement.
+Puis de cliquer sur ce [lien](https://cdn.rawgit.com/gregory-yet/ChatCustom/1a7906535c25ec9b6273e1839aa296d187ae85f8/main.user.js), cela devrait vous proposer une installation si l'extension Monkey fonctionne correctement.
 
 ## Screenshot
 ![script](http://i.imgur.com/k62EYm4.png)
