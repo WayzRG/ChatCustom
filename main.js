@@ -71,7 +71,7 @@ var customChat = {
 		$rep_del.on('click', function(){
 			customChat.del_rP();
 		});
-		$.get('http://wayzrg.bl.ee/script/motd.txt', function(txt){$('#taigachat_motd').after('<span style="text-align: center;">' + txt + '</span>');});
+		
 		(function($){
 			$.fn.extend({
 				center: function () {
