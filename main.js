@@ -24,10 +24,6 @@ var customChat = {
 	template_Js: '<script id="js_cc">$("#rep_pred").click(function(){var s=$(".customChat_reponse");s.hasClass("visible")?($(this).css("backgroundColor","#6AD2EF"),s.animate({right:"-1000px"},200).removeClass("visible")):(s.animate({right:"0px"},200).addClass("visible"),$(this).css("backgroundColor","#4993BC"))}),$("div#customChat_op").click(function(){var s=$(".customChat"),a=$(".customChat_reponse"), z=$("#modal_js");s.hasClass("visible")?(s.animate({right:"-1000px"},200).removeClass("visible"),a.animate({right:"-1000px"},200).removeClass("visible"),z.css("display", "none"),$("#rep_pred").css("backgroundColor","#6AD2EF"),$(\'div#customChat_op[data-role="blk"]\').animate({opacity:"0"},200,"swing",function(){$(\'div#customChat_op[data-role="blk"]\').css("display","none")})):(s.animate({right:"0px"},200).addClass("visible"),$(\'div#customChat_op[data-role="blk"]\').animate({opacity:"1"},200,"swing",function(){$(\'div#customChat_op[data-role="blk"]\').css("display","block")}))});</script>',
 	template_M: '<div id="modal_js" style="display:none;width:600px;background-color:#fefefe;border:1px solid rgba(0, 0, 0, 0.2);border-radius:5px;-webkit-box-shadow: 0px 0px 15px rgba(0,0,0,0.3);-moz-box-shadow: 0px 0px 15px rgba(0,0,0,0.3);box-shadow: 0px 0px 15px rgba(0,0,0,0.3);z-index:9854136598742"><div id="modal_js_head" style="border-bottom:1px solid rgba(0, 0, 0, 0.2);padding:10px 15px 10px 15px;"></div><div id="modal_js_body" style="padding:15px;"></div><div id="modal_js_footer" style="border-top:1px solid rgba(0, 0, 0, 0.2);padding:10px 15px 25px 15px;text-align:right;"><input type="button" id="modal_js_cancel" class="button primary" value="Annuler" /><input type="button" id="modal_js_save" class="button" value="Sauvegarder" /></div></div>',
 	init: function(){
-		if(location.host == "dreamgaming.fr"){
-			alert('PLA-PLA-PLAGIEUR');
-			return location.href = "http://realitygaming.fr";
-		}
 		setInterval(function(){customChat.checkNewMsg();}, 250);
 		if(location.pathname.indexOf('chatbox') != -1) {
 			$('#taigachat_controls').append(this.template_Button);
